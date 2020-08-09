@@ -5,6 +5,6 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 public interface DataBaseDog {
-    @GET("api/breeds/lits/all")
+    @GET("api/breeds/list/all")
     Call<RazasLista> listaRazas();
 }
